@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua的個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            padding: 50px;
+            text-align: center;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #fff;
+        }
+        header p {
+            font-size: 1.5em;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>陳力恆</h1>
+        <p>國際運輸業務</p>
+    </header>
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯絡方式</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>關於我</h2>
+            <p>26歲，不想工作，每天到公司第一件事就是想著下班。96公斤，最近有在減肥，但已經停滯一個禮拜，因為幾乎天天都吃遙遙薯。</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>作品集</h2>
+            <p>我沒有做品，但有一張照片</p>
+            <img src="D:\MyData\Desktop\作品.png" alt="女朋友大頭貼照">
+            <p>女朋友大頭貼照</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>聯絡方式</h2>
+            <p>聯絡郵箱：<a href="mailto:861004joshua@gmail.com">861004joshua@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/joshua861004/" target="_blank">Instagram</a>
+                <a href="https://line.me/ti/p/gC7WeE0K5Q" target="_blank">Line</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 陳力恆Joshua</p>
+    </footer>
+</body>
+</html>
